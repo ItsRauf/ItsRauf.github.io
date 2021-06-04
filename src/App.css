@@ -1,0 +1,27 @@
+#twitter, #instagram, #youtube, #spotify, #soundcloud, #github {
+  fill: #f9fafb;
+}
+
+#twitter:hover {
+  fill: #1da1f2;
+}
+
+#instagram:hover {
+  fill: #8a3ab9;
+}
+
+#youtube:hover {
+  fill: #ff0000;
+}
+
+#spotify:hover {
+  fill: #1db954;
+}
+
+#soundcloud:hover {
+  fill: #ff7700;
+}
+
+#github:hover {
+  fill: #333;
+}
