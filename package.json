@@ -7,7 +7,9 @@
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
-    "preact": "^10.5.13"
+    "@heroicons/react": "^1.0.1",
+    "preact": "^10.5.13",
+    "preact-router": "^3.2.1"
   },
   "devDependencies": {
     "@prefresh/snowpack": "^3.1.2",

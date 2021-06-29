@@ -1,7 +1,8 @@
 import { h } from 'preact';
+import type { RoutableProps } from 'preact-router';
 import './App.css';
 
-function App() {
+function App(props: RoutableProps) {
   return (
     <div className="w-screen h-screen bg-gray-900">
       <div className="grid w-full h-full grid-cols-12 gap-4">
@@ -12,7 +13,7 @@ function App() {
                 Hello, I'm Rauf!
               </p>
             </div>
-            <p className="w-full font-sans text-6xl font-extrabold leading-none text-justify text-gray-100">
+            <p className="w-full font-sans text-6xl font-extrabold leading-none text-justify text-gray-100 xl:text-6xl md:text-5xl sm:text-6xl">
               "CREATIVE BY NATURE <br /> DESIGNER BY CHOICE"
             </p>
             <div className="flex flex-row-reverse items-end pt-2">
@@ -20,7 +21,7 @@ function App() {
                 The "not so average" do it all person.
               </p>
             </div>
-            <div className="flex items-center justify-center pt-12 flew-row">
+            <div className="flex flex-row items-center justify-center pt-12">
               <div className="flex flex-row items-center w-56 justify-evenly">
                 <a href="https://twitter.com/ItsRauf_">
                   <svg
