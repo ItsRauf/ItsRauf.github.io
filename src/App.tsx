@@ -1,8 +1,7 @@
 import { h } from 'preact';
-import type { RoutableProps } from 'preact-router';
 import './App.css';
 
-function App(props: RoutableProps) {
+function App() {
   return (
     <div className="w-screen h-screen bg-gray-900">
       <div className="grid w-full h-full grid-cols-12 gap-4">
